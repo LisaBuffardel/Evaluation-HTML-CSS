@@ -1,0 +1,59 @@
+.container1{
+    background-color: black;
+    color: white;
+}
+
+.onglet{
+    height: 50px;
+}
+
+.logo{
+    background-color: green;
+}
+
+.MVBC{
+    background-color: grey ;
+}
+
+.onglet1{
+    background-color: red;
+}
+
+.onglet2{
+    background-color: blue;
+}
+
+.panda{
+    background-color: hotpink;
+    text-align: center;
+}
+
+.container{
+    display: inline;
+    text-align: center;
+}
+.photo img{
+    width: 100%;
+}
+
+.photoVolley img{
+    height: 100%;
+    width : 100%;
+}
+
+.bloc{
+    height: 400px;
+}
+
+
+.logoPanda{
+    background-color: white;
+}
+
+.club, .volleyBall, .volleySante, .beachVolley, footer{
+    color: white;
+    background-color: black;
+}
+
+
+
