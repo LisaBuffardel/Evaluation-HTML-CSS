@@ -8,28 +8,12 @@
     height: 50px;
 }
 
-.logo{
-    background-color: green;
-}
-
 .MVBC{
-    background-color: grey ;
-}
-
-.onglet1{
-    background-color: red;
-}
-
-.onglet2{
-    background-color: blue;
+    text-align: left;
 }
 
 .panda{
-    background-color: hotpink;
-    text-align: center;
-}
-
-.container-fluid{
+    background-color: white;
     text-align: center;
 }
 
@@ -37,6 +21,9 @@
     height: 400px;
 }
 
+.container-fluid{
+    text-align: center;
+}
 
 .logoPanda{
     background-color: white;
