@@ -1,6 +1,7 @@
-.container1{
+
+.menu{
     background-color: black;
-    color: white;
+    color: white;  
 }
 
 .onglet{
@@ -28,17 +29,8 @@
     text-align: center;
 }
 
-.container{
-    display: inline;
+.container-fluid{
     text-align: center;
-}
-.photo img{
-    width: 100%;
-}
-
-.photoVolley img{
-    height: 100%;
-    width : 100%;
 }
 
 .bloc{
@@ -56,4 +48,14 @@
 }
 
 
+.noPadding {
+    padding: 0 !important;
+    }
 
+.noMargin{
+    margin: 0 !important;
+}
+
+.photo img{
+    width: 100%;
+}
