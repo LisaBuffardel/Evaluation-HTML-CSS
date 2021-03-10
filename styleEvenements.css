@@ -30,6 +30,17 @@
     padding-top: 10px;
    }
 
+/*CSS LogoDisplay - faire disparaitre le logo en mobile*/
+.logoDisplay{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .logoDisplay {
+      display: block;
+    }
+  }
+
 /* CSS logoEvent */
 .logoEvent{
     margin-left: 25%;
@@ -42,7 +53,7 @@
 }
 
 .graybloc{
-    height: 120px;
+    height: 100%;
     background-color : #A8A8A8;
     color:white;
     padding-top: 8px;
