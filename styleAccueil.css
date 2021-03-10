@@ -38,11 +38,18 @@
     width: 100%;
 }
 
-/* CCS body */
-
-.bloc{
-    height: 400px;
+/*CSS LogoDisplay - faire disparaitre le logo en mobile*/
+.logoDisplay{
+    display: none;
 }
+
+@media (min-width: 768px) {
+    .logoDisplay {
+      display: block;
+    }
+  }
+
+/* CCS body */
 
 .bloc p, h2, h6{
     margin-left: 2rem;
