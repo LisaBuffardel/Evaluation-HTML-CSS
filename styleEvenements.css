@@ -1,94 +1,105 @@
 /*CSS menu navigation */
-.menu{
+
+.menu {
     background-color: black;
-    color:white;  
+    color: white;
     text-align: center;
     font-family: 'Oswald', sans-serif
 }
 
-.onglet{
+.onglet {
     height: 50px;
 }
 
-.MVBC{
+.MVBC {
     text-align: left;
 }
 
-.logoPanda{
+.logoPanda {
     background-color: white;
 }
 
-.active{
+.active {
     color: black;
     background-color: white;
 }
 
-.boutton a, a:hover, a:visited, a:active {
+.boutton a,
+a:hover,
+a:visited,
+a:active {
     color: inherit;
     text-decoration: none;
-   }
+}
 
-.boutton a:hover{
+.boutton a:hover {
     background-color: gray;
     color: black;
 }
 
-
-.boutton a{
+.boutton a {
     display: block;
     height: 100%;
     width: 100%;
     padding-top: 10px;
 }
 
+
 /*CSS LogoDisplay - faire disparaitre le logo en mobile*/
-.logoDisplay{
+
+.logoDisplay {
     display: none;
 }
 
 @media (min-width: 768px) {
     .logoDisplay {
-      display: block;
+        display: block;
     }
-  }
+}
+
 
 /* CSS logoEvent */
-.logoEvent{
+
+.logoEvent {
     margin-left: 25%;
     margin-top: 25%;
 }
 
+
 /* CCS body */
-.title{
+
+.title {
     padding-top: 15px;
 }
 
-.graybloc{
+.graybloc {
     height: 100%;
-    background-color : #A8A8A8;
-    color:white;
+    background-color: #A8A8A8;
+    color: white;
     border: solid 0.3em;
     width: auto;
     padding: 0.5em;
-    border-color : white;
+    border-color: white;
 }
 
 .noPadding {
     padding: 0 !important;
-    }
+}
 
-.noMargin{
+.noMargin {
     margin: 0 !important;
 }
 
+
 /* CSS footer */
-.footer{
+
+.footer {
     color: white;
     background-color: black;
     text-align: center;
 }
 
-footer a{
+footer a {
     margin-top: 1%;
     display: inline-block;
 }
