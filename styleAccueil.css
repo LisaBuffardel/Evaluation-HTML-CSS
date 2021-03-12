@@ -13,6 +13,7 @@
 
 .MVBC {
     text-align: left;
+    padding-top: 5px;
 }
 
 .active {
@@ -55,10 +56,6 @@ a:active {
     width: 100%;
 }
 
-h1 {
-    font-size: 12px;
-}
-
 
 /*CSS LogoDisplay - faire disparaitre le logo en mobile*/
 
@@ -69,6 +66,9 @@ h1 {
 @media (min-width: 768px) {
     .logoDisplay {
         display: block;
+    }
+    h1 {
+        font-size: 1rem;
     }
 }
 
