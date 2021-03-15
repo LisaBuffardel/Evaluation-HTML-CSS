@@ -82,6 +82,16 @@ a:active {
     border-color: white;
 }
 
+.blueBloc {
+    height: 100%;
+    background-color: #41D1CC;
+    color: white;
+    border: solid 0.3em;
+    width: auto;
+    padding: 0.5em;
+    border-color: white;
+}
+
 .noPadding {
     padding: 0 !important;
 }
