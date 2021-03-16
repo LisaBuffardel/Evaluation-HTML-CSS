@@ -1,0 +1,5 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule ^montgermont-volleyball-club/accueil.html$  /index.html [L]
+RewriteRule ^montgermont-volleyball-club/evenements.html$  /event.html [L]
